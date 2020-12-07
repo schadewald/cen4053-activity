@@ -1,0 +1,13 @@
+name: "CEN4053-Activity"
+description: "Workflow activity"
+author: "Chad Schadewald"
+
+inputs:
+  AGE:
+    description: "Age of user"
+    required: true
+    default: "32"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
