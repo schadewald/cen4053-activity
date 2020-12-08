@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sh -c "Test"
+sh -c "echo Test"
