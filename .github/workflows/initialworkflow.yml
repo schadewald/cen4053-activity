@@ -10,3 +10,5 @@ jobs:
       - uses: ./actions/first-action
         with:
           AGE: "32"
+          NAME: "Steven"
+          YEARS: "10"
