@@ -6,15 +6,12 @@ inputs:
   NAME:
     default: "Charles"
     description: "Name of user"
-    required: true
   AGE:
     default: "32"
     description: "Age of user"
-    required: true
   YEARS:
     default: "10"
     description: "Added years"
-    required: true
 
 runs:
   using: "docker"
