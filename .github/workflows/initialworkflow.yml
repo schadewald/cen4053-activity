@@ -8,3 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: ./actions/first-action
+        with:
+          AGE: "32"
+          NAME: "Steven"
+          YEARS: "10"
