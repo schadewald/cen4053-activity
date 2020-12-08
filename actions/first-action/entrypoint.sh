@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sh -c "echo Test"
+sh -c "echo Hello $NAME, in $YEARS years you will $AGE! Won't you feel old?...."
